@@ -8,8 +8,6 @@ public class KeSceneAwal : MonoBehaviour
 {
     public GameObject play, menu;
     public void btPindah () {
-        Application.LoadLevel("SceneAwal");
-        play.SetActive(false);
-        menu.SetActive(true);
+        Application.LoadLevel("SceneAwalMenu");
     }
 }

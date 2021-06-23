@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HideUIMateriOut : MonoBehaviour
+public class HideJenisFlowchart : MonoBehaviour
 {
     public GameObject UIMateri, Materi, Bt, Bg;
  
@@ -15,7 +15,9 @@ public class HideUIMateriOut : MonoBehaviour
         Materi.SetActive(true);
         Bt.SetActive(true);
         Bg.SetActive(true);
+
         yield return new WaitForSeconds(duration);
+
         UIMateri.SetActive(false);
         Materi.SetActive(false);
         Bt.SetActive(false);

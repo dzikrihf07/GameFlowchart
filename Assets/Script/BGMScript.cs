@@ -11,11 +11,9 @@ public class BGMScript : MonoBehaviour
             if (_instance == null)
             {
                 _instance = GameObject.FindObjectOfType<BGMScript>();
-
                 //Tell unity not to destroy this object when loading a new scene!
                 DontDestroyOnLoad(_instance.gameObject);
             }
-
             return _instance;
         }
     }
@@ -31,7 +29,6 @@ public class BGMScript : MonoBehaviour
         }
         else
         {
-
             //If a Singleton already exists and you find
             //another reference in scene, destroy it!
             if (this != _instance)
@@ -41,7 +38,6 @@ public class BGMScript : MonoBehaviour
                 Destroy(this.gameObject);
             }
         }
-
     }
     public void Update()
     {
