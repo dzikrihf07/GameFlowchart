@@ -7,10 +7,10 @@ public class HideJenisFlowchart : MonoBehaviour
     public GameObject UIMateri, Materi, Bt, Bg;
  
     public void Sembunyikan() {
-        StartCoroutine(TemporarilyDeactivate(1));
+        StartCoroutine(WaktuSembuyikan(1));
     }
  
-    private IEnumerator TemporarilyDeactivate(float duration) {
+    private IEnumerator WaktuSembuyikan(float duration) {
         UIMateri.SetActive(true);
         Materi.SetActive(true);
         Bt.SetActive(true);
