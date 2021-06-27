@@ -38,11 +38,14 @@ public class DeadlineSoal : MonoBehaviour
             }
         }
     }
+    
     private IEnumerator WaktuDeadline(float duration) {
         yield return new WaitForSeconds(duration);
 
         SoalMati.SetActive(false);
         SoalMuncul.SetActive(true);
+        
+        NyawaNgurang.nyawa -= 1;
 
         if (posisi < pos.Length - 1) {
             posisi += 1;
