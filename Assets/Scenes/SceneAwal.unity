@@ -1068,6 +1068,7 @@ GameObject:
   - component: {fileID: 405093543}
   - component: {fileID: 405093542}
   - component: {fileID: 405093541}
+  - component: {fileID: 405093546}
   m_Layer: 5
   m_Name: Keluar
   m_TagString: Untagged
@@ -1199,6 +1200,20 @@ RectTransform:
   m_AnchoredPosition: {x: 526.36, y: 244.2}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &405093546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405093540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 285745544}
+  ClickSound: {fileID: 8300000, guid: 527ca65c9968c8f4596799f5837e543f, type: 3}
 --- !u!1 &409030535
 GameObject:
   m_ObjectHideFlags: 0
@@ -3185,6 +3200,7 @@ GameObject:
   - component: {fileID: 1712280737}
   - component: {fileID: 1712280736}
   - component: {fileID: 1712280735}
+  - component: {fileID: 1712280738}
   m_Layer: 5
   m_Name: Bermain
   m_TagString: Untagged
@@ -3299,6 +3315,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712280733}
   m_CullTransparentMesh: 0
+--- !u!114 &1712280738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712280733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 285745544}
+  ClickSound: {fileID: 8300000, guid: 527ca65c9968c8f4596799f5837e543f, type: 3}
 --- !u!1 &1739790952
 GameObject:
   m_ObjectHideFlags: 0
